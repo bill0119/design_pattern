@@ -11,15 +11,15 @@
 
 ##### 1.  Factory (工廠模式)： 
 
-     --Simple Factory  (簡單工廠模式)
+--Simple Factory  (簡單工廠模式)
 
-     --Abstract Factory  (抽象工廠模式)：為一個產品族提供了統一的創建介面。當需要這個產品族的某一系列的時候，可以從抽象工廠中選出相應的系列創建一個具體的工廠類。
+--Abstract Factory  (抽象工廠模式)：為一個產品族提供了統一的創建介面。當需要這個產品族的某一系列的時候，可以從抽象工廠中選出相應的系列創建一個具體的工廠類。
 
 目的 : 使程式能輕易的 Port 到另外一個系統上。
 
 使用時機：為要建立一個容易 update , 可移植性高的系統時。
 
-     --Factory Method  (工廠方法模式) ：定義一個介面用於創建對象，但是讓子類決定初始化哪個類。工廠方法把一個類的初始化下放到子類。
+ --Factory Method  (工廠方法模式) ：定義一個介面用於創建對象，但是讓子類決定初始化哪個類。工廠方法把一個類的初始化下放到子類。
 
 目的 : 當 Factory 無法預期以後會需要什麼樣的 component 時，使用 Factory Method ，將責任延遲到 concreteProcuct 身上。
 
@@ -42,7 +42,7 @@
 
 ##### 4.  Singleton  (獨身模式或叫單例模式)：確保一個類只有一個實例，並提供對該實例的全局訪問。
 
-     --Registry of Singleton
+--Registry of Singleton
 
 目的 : 讓一個 class 只能有一個 instance。
 
@@ -59,11 +59,11 @@
 
 使用時機：when two incompatible classes should work together。
 
-  --Default Adapter
+--Default Adapter
 
-  --Object Adapter
+--Object Adapter
 
-  --Class Adapter
+--Class Adapter
   
 
 ##### 6.  Bridge  (橋樑模式)：將一個抽象與實現解耦，以便兩者可以獨立的變化。
